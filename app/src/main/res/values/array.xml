@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="user_type" >
+        <item>Select your category</item>
+        <item>Student</item>
+        <item>Teaching staff</item>
+        <item>Employee</item>
+        <item>Administrator</item>
+    </string-array>
+
+</resources>

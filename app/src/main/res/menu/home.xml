@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="menu" android:icon="@mipmap/ic_menu"
+        app:showAsAction="always" >
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/logout"
+                    android:title="logout"/>
+
+                <item
+                    android:id="@+id/restart_app"
+                    android:title="restart app" />
+                <item
+                    android:id="@+id/profile_settings"
+                    android:orderInCategory="101"
+                    android:title="profile" />
+
+                <item
+                    android:id="@+id/help"
+                    android:title="help" />
+
+                <item
+                    android:id="@+id/search"
+                    android:title="search" />
+                <item
+                    android:id="@+id/new_student"
+                    android:title="add student" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
